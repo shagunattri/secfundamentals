@@ -1,0 +1,14 @@
+>> I also like to think of cybersecurity as a seesaw.
+On one side you have security, and on the other side, convenience.
+When one side goes up, the other side goes down.
+Cybersecurity professionals have to figure out happy mediums to balance the seesaw.
+If you make one side too high, the other suffers.
+If you have little to no security implemented, users don't have to worry
+about things like authentication.
+But where would you be then?
+If you have security measures that are unduly high, you risk employees not being able
+to perform their jobs or even worse, trying to circumvent security perhaps by writing passwords
+down and putting them on sticky notes on the monitors or under the keyboards.
+It's a pain to take off a hat, a jacket, and shoes at the airport,
+but I feel safer on the plane knowing everyone else did so, too.
+Cybersecurity involves the same tradeoff.

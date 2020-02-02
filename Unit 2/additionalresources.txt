@@ -1,0 +1,32 @@
+Additional Resources
+Authentication
+
+'Bob' outsources tech job to China; watches cat videos at work, Jaikumar Vijayan, Computerworld
+
+10 Reasons Why Biometrics Won’t Replace Passwords Anytime Soon, Tom, Dashlane
+
+NIST declares the age of SMS-based 2-factor authentication over, Devin Coldewey, TC’s Crunchboard
+
+NIST Denounces SMS 2FA - What are the Alternatives?, Kevin Townsend, Security Week
+
+Standards body warned SMS 2FA is insecure and nobody listened,  Darren Pauli, The Register
+Exploits
+
+Microsoft Security Bulletin MS08-067: Vulnerability in Server service could allow remote code execution, Microsoft
+
+The Inside Story Behind MS08-067, John Lambert, Microsoft
+Non-Human Threat Agents
+
+Squirrels outrank hackers as threat to U.S. electrical grid, Martin Anderson, The Stack
+
+Grid Confronts a Threat from Mother Nature, Matthew L. Wald, The New York Times
+
+Power grid cyber security 'in chaos' | State ponders ways to guard against attacks by humans as well as Mother Nature, Hartford Business Journal
+Security vs. Convenience
+
+What hackers inside your company are after: Convenience, Doug Wick, Help Net Security
+
+Is Tech Too Easy to Use?, Kevin Roose, The New York Times
+The Verizon Data Breach Investigations Report
+
+Each year, Verizon publishes the Verizon Data Breach Investigations Report (DBIR), which summarizes cybersecurity data, trends, and issues over the past year.

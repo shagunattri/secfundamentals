@@ -1,0 +1,19 @@
+>> The second A in the AAA model refers to authorization.
+All right, the user has gone through identification
+to say he is someone and authentication to prove it.
+Now what? Do we let him see anything he wants?
+Do we let him do anything he wants?
+Authorization means that based on the user's credentials, we let him do certain things,
+we let him see certain things but not others.
+This is tied into the principle of least privilege, which states users and even devices,
+programs, and processes should be granted enough permissions
+to do their required functions and not a single drop more.
+Any authorization beyond normal job functions opens the door for either accidental
+or malicious violations of confidentiality, integrity, and availability.
+This is specifically why the recommendation is to never use an administrator or a root account
+on a system but rather an account with limited privileges.
+If your system gets infected with malware, it will run with the privileges of the user.
+Your account is granting authorization beyond that principle of least privilege.
+Of course, you can escalate your privileges when necessary
+or even use temporarily an administrator account,
+but this way, at least, it's not constant.

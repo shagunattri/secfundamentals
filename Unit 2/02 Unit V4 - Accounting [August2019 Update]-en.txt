@@ -1,0 +1,16 @@
+>> The third A in the AAA model refers to accounting.
+Keeping track of users and their actions is very important.
+From a forensics perspective, tracing back to events leading
+up to a cybersecurity incident can prove very valuable to an investigation.
+Predicting what disgruntled employees might be up to, for example, with a certain number
+of failed login attempts to a server they are not authorized
+to access is made possible by accounting.
+A generic account for administrators or managers to share is not a very good idea.
+The accounting can't tie actions to an individual.
+The band The Police said it best, "Every move you make, I'll be watching you."
+Some companies that send employees on mandatory vacations claim they do
+so to avoid employee burnout; however when employee B steps
+into employee A's role while employee A is on the beach in Hawaii,
+employee B is performing checks and balances on employee A. Employee A could have been hiding
+or covering up log entries that are now able to be seen and revealed by employee B
+who is on the same level as employee A.

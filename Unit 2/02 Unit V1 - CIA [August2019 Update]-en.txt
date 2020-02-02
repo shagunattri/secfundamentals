@@ -1,0 +1,32 @@
+>> The CIA, Central Intelligence Agency, is the United States Service that gathers, processes,
+and analyzes national security information from around the world.
+How fitting that we can use the letters differently to represent the CIA model,
+which describes three important goals for cybersecurity.
+The C stands for confidentiality.
+Cybersecurity requires privacy in data and information.
+Certain people, devices, or processes should be permitted or restricted from seeing data, files,
+and items, like username, password combinations.
+Confidentiality is concerned with simply viewing data or information.
+If the wrong people see data or information,
+and they're not authorized, many problems could arise.
+Company secrets, source code,
+personal identifiable information and more, should be safeguarded.
+The main way confidentiality is accomplished is through encryption,
+which we'll cover in a future module.
+The I in this CIA model stands for integrity.
+Cybersecurity requires us to feel safe that data transmitted, processed,
+and stored has not been changed from its original form,
+either accidentally or maliciously.
+If one bit of a message is changed, the whole message could change!
+The difference between the words, hired and fired, that's one character!
+But those words mean very different things.
+Furthermore, the whole message itself could be corrupted and unreadable.
+The main way integrity is accomplished is through hashing,
+which we'll also cover in a future module.
+The last letter of CIA, the A, stands for availability.
+With all your cyber security measures in place, dealing with hardware, software, people,
+processes, and more, users who are authorized to do their jobs should be able to do so.
+You want to make sure that you don't fall victim to a
+distributed denial of service, DDos, attack
+and that you have full tolerance and load balancing
+in the event of a cybersecurity incident or disaster.

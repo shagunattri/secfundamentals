@@ -1,0 +1,50 @@
+>> Another important cybersecurity model is the AAA or triple A model,
+which doesn't have anything to do with the American Automobile Association.
+The first A refers to authentication, which is the process
+of proving you are who you say you are.
+When you claim you are someone, that's called identification.
+When you prove it, that's authentication.
+If I drove from Rochester to Canada and told the border patrol, "I'm Jonathan S. Wiseman,
+let me into Canada," I would get some strange looks at the very least.
+Authentication requires proof in one of three possible forms: Something you know,
+like a password; something you have, like a key fob; something you are -- biometrics.
+When you combine more than one of these categories,
+that's called multifactor authentication, and that really is the future of authentication.
+Multifactor authentication makes it really hard to authenticate
+as someone else -- impersonating them.
+Because if a hacker steals your password, he'd also have to possess a small key fob with a code
+that rotates in parallel with code on the server you're logging into.
+Or he'd need your iris, retina, or hand geometry.
+Using two passwords is not multifactor authentication because they both fall
+under the same something you know category.
+It's like putting two locks on your door at home that could be opened with the same key.
+There was a belief at some point that biometrics would simply replace passwords.
+But especially with all the data breaches in recent years,
+it's very clear that while you can change your password,
+you simply cannot change your biometrics.
+If your biometrics are stolen, then what?
+You also lose anonymity when using credentials that are directly tied to you.
+Your profile can easily be constructed, tied to all your actions,
+linking together everything you do and everywhere you go in cyberspace.
+Not that sharing credentials is necessarily a good thing, but if you temporarily had to,
+for instance, in an emergency situation
+and biometrics was the only option, then what would you do?
+What happens when you grow a beard and the biometric authentication fails?
+False positives and false negatives are legitimate issues
+and could restrict or even allow access in error.
+These are the most compelling arguments for a combination of authentication methods known
+as 2FA or two-factor authentication.
+Many companies like Google, LinkedIn,
+and banks have recently enabled their sites for this 2FA system.
+Sending codes to your phone through SMS, short message service -- text messages --
+you use these codes that are texted to your phone in addition
+to a password to access an account.
+NIST, the National Institute of Standards
+and Technology subsequently denounced two-factor authentication through text messages.
+They stated that 2FA with SMS should be deprecated immediately due to the fact
+that SMS messages can be intercepted or redirected.
+NIST recommended other options like Google authenticator or even certain USB dongles.
+However, Google, Twitter, Facebook, and tons
+of other major websites are still using text messages for two-factor authentication today.
+NIST's demand at least to this point has been completely ignored
+by both companies and their users.
