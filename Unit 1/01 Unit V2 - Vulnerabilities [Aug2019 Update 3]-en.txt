@@ -1,0 +1,84 @@
+
+JONATHAN WEISSMAN: Good engineering
+involves thinking about how things can be made to work.
+The security mindset involves thinking about how
+things can be made to fail.
+It involves thinking like an attacker, an adversary,
+or a criminal.
+You don't have to exploit the vulnerabilities you find.
+But if you don't see the world that way,
+you'll never notice most security problems.
+These thoughts come from Bruce Schneier,
+international renowned cryptographer
+and security technologist.
+A vulnerability is a weakness, a flaw in a program,
+device, network, and even a person.
+Using a laptop, security researchers
+controlled a Jeep Cherokee.
+Cold air was blasted from the vents.
+Next up on the blasting list was hip-hop music
+from the speakers.
+Then, wipers and wiper fluid followed.
+The car's display then showed a picture of the hackers.
+After the car went out on the highway,
+the hackers cut the transmission.
+The car was now completely stopped.
+This was actually the second time
+the driver allowed the researchers to use him
+as a crash test dummy.
+Previously, they had disabled the brakes, made the horn honk,
+and also had some fun with the seat belt and steering wheel.
+After Chrysler's Uconnect vulnerabilities
+were uncovered by these researchers,
+Chrysler mailed over a million USB drives to owners
+through the USPS.
+That was a great thing, for hackers,
+who can now send fake USBs out and get
+owners to plug malicious devices into their vehicles.
+United Airlines gave two hackers a million
+frequent flyer miles for discovering
+software vulnerabilities.
+Bug bounty programs, allowing hackers
+to identify security issues and reward
+them has become a real business model today,
+implemented by big companies in many different industries,
+like United Airlines.
+All across the world, researchers
+were able to hack an internet-connected toilet
+in Japan.
+Potential damage includes, flushing the toilet
+and bringing up the owner's water bill,
+flipping the toilet lid up and down, and running the bidet
+and air dry functions, causing discomfort or distress,
+in the words of the researchers.
+From a hospital and medical perspective,
+researchers found drug infusion pumps
+that can have dosages changed, defibrillators
+that can give shocks or prevent a shock via Bluetooth,
+X-rays that were accessible, refrigerators storing
+blood and drugs that can have temperatures changed,
+digital medical records that can be altered causing misdiagnoses
+or incorrect prescriptions, as well as tons
+of other vulnerabilities.
+Of course, crashing systems and bringing them down
+was also possible.
+These systems all shared poor or no authentication,
+weak default or hard-coded passwords,
+as well as embedded web interfaces for ease of hacking.
+What would General Tooth have said about all of this?
+In a real attack--
+not by researchers-- hackers controlled a baby monitor
+and even injected audio into the baby's room.
+The frantic parents stormed in fearing the worst.
+There are websites that show live
+streams from unsecured webcams all across the world--
+webcams that haven't had their default username and password
+combination changed, businesses, public spaces, and even
+schools, daycare centers.
+And you know this was common--
+homes.
+They're all visible for anyone to watch.
+There are even categories for users
+to pick from, like, bar, restaurant, kitchen, religion,
+barber shop, mall, beach, airline, traffic, laundry,
+pool, and much more.

@@ -1,0 +1,18 @@
+Ransomware
+
+In this unit's last video, recorded in early 2017, I predicted something like this. A few months later, it happened!
+
+Here are some articles about the WannaCry ransomware attack and its aftermath.
+
+    U.K. Hospitals Hit in Widespread Ransomware Attack, Krebs on Security
+    Massive ransomware attack hits UK hospitals, Spanish banks, Sebastian Anthony (UK), Ars Technica
+    WannaCry ransomware attack, Wikipedia
+    WannaCry ransomware: Everything you need to know, Ian Sherr, CNET
+    What you need to know about the WannaCry Ransomware, Symantec Security Response, Symantec Connect
+    How an Accidental ‘Kill Switch’ Slowed Friday’s Massive Ransomware Attack, Lily Hay Newman, Wired
+    WannaCry hackers still trying to revive attack says accidental hero, Samuel Gibbs, The Guardian
+    WannaCry: Smaller businesses are at great risk, Andrew Stuart, (IN)SECURE Magazine
+    WannaCry Hit Windows 7 Machines Most, Kelly Jackson Higgins, Dark Reading
+    A WannaCry Flaw Could Help Some Victims Get Files Back, Andy Greenberg, Wired
+    WannaCry Ransomware Decryption Tool Released; Unlock Files Without Paying Ransom, Swati Khandelwal, The Hacker News
+    Why WannaCry won’t change anything, Fredric Paul, Network World

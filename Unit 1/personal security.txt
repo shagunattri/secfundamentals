@@ -1,0 +1,32 @@
+A major company Dyn, that is responsible for internet naming services of hundreds
+of major websites, like PayPal, Amazon, Twitter, CNN, Fox News, GitHub, Visa,
+and more was recently brought down by a distributed denial of service attack.
+As massive amounts of fake visitors flooded their servers.
+Hundreds of sites, as well as others, through side effects, were brought down for hours,
+in three different time intervals that day.
+Dyn's cybersecurity mechanisms were in place, but this was a brand new type of DDoS.
+Dyn was brought down by nearly 100,000 DVRs, security cameras, webcams, thermostats,
+refrigerators, coffee makers, and other internet of things devices in homes across the world.
+These devices were hijacked through malware
+and were instructed to attack Dyn's servers.
+Either default usernames and passwords, un-updated software,
+or flaws in the actual software can be blamed.
+The users of these devices had no idea that they were, in essence, responsible.
+Sometimes I hear people say, why should I do the security updates for my operating system?
+Why should I update my software?
+Why do I need a firewall at home?
+Why do I need antivirus software?
+I have nothing hackers would want.
+Then I ask these people some questions.
+Do you do your online banking, you pay your credit cards online?
+Yes. Do you have access to information resources,
+like personal, confidential information?
+Or employer confidential information?
+Yes. Do you have a high-speed internet connection at home?
+Yes. Do you have devices at home that can be accessed over the internet, like your hotplate?
+Yes. Even if you have nothing on the machines at home that hackers would be interested in,
+they'd be very interested to watch you do what you do, log your username
+and password combinations, clean out your entire bank accounts, and steal your identity.
+Attacks are becoming increasingly complex, relying on a combination of techniques,
+including exploitation of software vulnerabilities, and improper configuration,
+malicious software, malware, and social engineering.

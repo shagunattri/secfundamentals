@@ -1,0 +1,52 @@
+>> If you know the enemy, and know yourself, you need not fear the result of 100 battles.
+If you know yourself, but not the enemy, for every victory gained, you'll also suffer defeat.
+If you know neither the enemy nor yourself, you will succumb in every battle.
+These ideas come from Chinese General and Philosopher, Sun Tzu's, The Art of War,
+Incredibly enough, over 2,500 years later,
+each of those three points directly applies
+to the world of cyber security.
+Cyber security is a great umbrella term referring to protecting the confidentiality,
+integrity, and availability of computing devices and networks, hard [inaudible] software, and,
+most importantly, data and information.
+Cyber security involves times when data or information is
+in transit, being processed, and at rest.
+Cyber security is achieved through procedures, products, and people.
+We're going to investigate these terms and concepts throughout the course.
+Some like to think of cyber security as a subset of information security, a very general term
+which also deals with information stored physically,
+in addition to cyber security's pure digital form.
+Cyber security requires knowing who the hackers are, who the attackers are,
+what their motivations are, where our vulnerabilities lie,
+and how protected we actually are.
+Easier said than done.
+What exactly is cyberspace?
+The enemy could be thousands of miles away, or in the very next cubicle at work, or both!
+If the attacker has penetrated your network and is sitting silently, watching and observing,
+collecting tons of information until the time comes to launch to attack.
+Nowadays, hackers lurk on networks silently just watching for hundreds of days at a time!
+Completely undetected!
+This is a constant cat and mouse game.
+Companies pay penetration testers to find and exploit vulnerabilities.
+Pen testers can make recommendations, but what good are they
+if the companies don't implement them?
+What good are they if the companies do implement them to check off compliance boxes,
+and then don't actively monitor their infrastructure afterwards?
+What good are hardware and security implementations if the weakest link, the humans,
+fall victim to social engineering attacks?
+Which don't involve any technology, but, rather, prey on the gullible and naive humans.
+We've heard too many of these link-clicking stories.
+Who is to blame if the employees are not properly educated and trained?
+Who's to blame if the employees are educated and trained,
+but not tested to seeing not only what they learned,
+but how they will react in certain situations?
+We often fear the unknown hackers from the outside,
+but insiders are a much greater threat, and can do far greater damage.
+They already have some level of access, means, and opportunity.
+One of the biggest problems today in cyber security is the putting out fires mentality.
+Stopping the hackers.
+However, treating each attack as an isolated incident is a huge mistake.
+There needs to be greater intelligence, correlated attacks, to previous attacks,
+both within a company and between companies.
+The more intel that can link one attack to a previous one, the more equipped we can be
+in protecting ourselves going forward!
+The hackers are doing far more sharing and collaborating than the good guys.

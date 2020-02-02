@@ -1,0 +1,28 @@
+### Additional Resources
+These news stories and articles can give you more detail on many of the topics.
+
+[http://www.informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/]  (Biggest Data Breaches Information is Beautiful)
+[http://www.cio.com/article/2600345/security0/11-steps-attackers-took-to-crack-target.html] (11 Steps Attackers Took to Crack Target CIO.com)
+[https://www.wired.com/2016/03/inside-cunning-unprecedented-hack-ukraines-power-grid/] (Inside the Cunning, Unprecedented Hack of Ukraine Power Grid Wired)
+[http://www.energi.com/news/2017/01/2017-cyber-risks-to-intensify-as-hackers-become-more-cunning-report/] (2017 Cyber Risks to Intensify as Hackers Become More Cunning: Report EnergiRansomware)
+[https://threatpost.com/ransomware-pay-or-not/144833/] (Ransomware Firm Exposed: Researchers Weigh in on Paying Tara Seals, Threatpost)
+[https://www.infosecurity-magazine.com/news/baltimore-wont-pay-ransom/] (Baltimore Wont Pay Ransom, Systems Remain Down Kacy Zurkus, Infosecurity Magazine)
+[https://www.darkreading.com/attacks-breaches/baltimore-ransomware-attack-takes-strange-twist/d/d-id/1334706] (Baltimore Ransomware Attack Takes Strange Twist Kelly Jackson Higgins, Dark Reading)
+[https://www.foxnews.com/tech/cybersecurity-experts-warn-baltimore-to-stop-playing-with-ransomeware-attacks] (Cybersecurity experts warn Baltimore to stop playing with ransomware attacks Barnini Chakraborty, Fox NewsDefining Cybersecurity)
+[https://www.schneier.com/blog/archives/2008/03/the_security_mi_1.html] (The Security Mindset Schneier on Security)
+[https://www.scmagazine.com/cybersecurity-unemployment-rate-at-zero/article/530120/] (Cybersecurity unemployment rate at zero SC MediaVulnerabilities)
+[http://www.insecam.org/] (Network live IP video cameras directory Insecam.orgbr This website lets you view video from unsecured cameras around the world)
+
+[http://www.wired.com/2015/07/hackers-remotely-kill-jeep-highway/] (Hackers Remotely Kill a Jeep on the Highwaymdash;With Me in It Andy Greenberg, Wired)
+[http://www.networkworld.com/article/2953836/security/with-recall-fiat-chrysler-makes-its-car-hack-worse.html] (With recall, Fiat Chrysler makes its car hack worse Colin Neagle, Network World)
+[http://wgntv.com/2015/07/17/florida-man-wins-over-1-million-miles-for-hacking-united-airlines/] (Florida man wins over 1 million miles for hacking United Airlines Jack Corrigan, WGN TV)
+[http://www.dailymail.co.uk/sciencetech/article-2384826/Satis-smart-toilets-Japan-hacked-hijacked-remotely.html] (Computer hackers can now hijack toilets Sarah Griffiths, Daily Mail)
+[http://www.cbsnews.com/news/baby-monitor-hacker-delivers-creepy-message-to-child/] (Baby monitor hacker delivers creepy message to child CBS News)
+[https://www.wired.com/2014/04/hospital-equipment-vulnerable/] (It Insanely Easy to Hack Hospital Equipment Kim Zeller, Wired)
+[https://www.bloomberg.com/features/2015-hospital-hack/] (It Way Too Easy to Hack the Hospital Monte Reel and Jordan Robertson, BloombergPersonal Security)
+[http://www.sciencealert.com/here-s-what-we-know-about-the-massive-cyber-attack-that-took-down-the-internet-on-friday] (Heres What We Know About the Massive Cyber Attack That Took Down the Internet on Friday Peter Dockrill, Science Alert)
+[http://www.networkworld.com/article/3134057/security/how-the-dyn-ddos-attack-unfolded.html] (How the Dyn DDoS attack unfolded Tim Greene, Network WorldWho are the Hackers?)
+[http://www.networkworld.com/article/2330885/lan-wan/meeces-to-pieces.html] (MEECES to pieces Deborah Radcliff, Network World)
+[https://www.forbes.com/sites/zakdoffman/2019/04/11/forget-russia-china-and-iran-up-to-80-of-cybersecurity-threats-are-closer-to-home/#f15b2807eb3b] (Forget Russia, China And Iran, Up To 80% Of Cybersecurity Threats Are Closer To Home Zak Doffman, Forbes)
+[https://www.varonis.com/blog/insider-security-threats/] (Is Your Biggest Security Threat Already Inside Your Organization? Rob Sobers, Varonis)
+[https://www.helpnetsecurity.com/2017/02/21/insider-threat/] (Insider threat vs. inside threat: Redefining the term Rick Orloff, Help Net Security)

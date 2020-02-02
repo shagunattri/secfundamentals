@@ -1,0 +1,117 @@
+
+JONATHAN S. WEISSMAN: I want to run down
+some of the more noteworthy data breaches
+that were brought to light over the past few years
+with some interesting tidbits on each.
+One of the main things to focus on here
+is how many customers lost their confidentiality.
+Announced in 2013, Target, 70 million customers affected.
+The breach started when credentials from their HVAC
+company were stolen.
+Announced in 2014, Chase, 83 million customers affected.
+The breach started because JP Morgan's security team
+didn't upgrade a server with two-factor authentication.
+Home Depot, 56 million customers affected.
+Like Target, the breach started from credentials stolen
+from a third-party vendor, unpatched windows systems
+were also directly in the mix.
+Sony, confidential data from Sony Pictures including
+personal information of employees
+and their families, corporate emails, salary information,
+and unreleased films were released.
+Sony was ordered to pull the film, The Interview, which
+had a plot to assassinate North Korea's Kim Jong Un.
+Announced in 2015, OPM, the Office of Personnel Management,
+25 million users affected.
+Security clearance information as well as fingerprints
+were stolen.
+Secret agents, even if they changed their names,
+were now no longer safe.
+Ashley Madison, 40 million users,
+and I say it like that because it
+was revealed that most females were fake bots and not
+actual humans.
+Major League Baseball's Houston Astros.
+A front office executive went from the St. Louis Cardinals
+to the Houston Astros, changing jobs,
+and was required to turn his laptop and password.
+A Cardinals's executive tried the former executive's
+old password on the computer systems
+in Houston, his new digs.
+After mixing and matching with the old Cardinals's password,
+he got in.
+Player rankings, confidential data, trade negotiation notes,
+and more were seen and subsequently dumped for all
+to see.
+After the Astros' reset their passwords,
+the Cardinals's executive hacked the employee's email,
+getting the password reset email so he
+could continue his monitoring.
+Kaspersky, a cyber security and antivirus provider, Last Pass,
+a password management service, and Hacking Team,
+a company that sells hacking tools to governments and law
+enforcement, all three of these entities
+were hacked themselves.
+Health care providers were breached.
+Excellus BCBS had 10.5 million affected customers,
+Anthem, 78.8 million affected customers,
+and Premera, 11 million affected customers.
+You can change your password after a hack
+but you can't change your health care information which
+includes, among other things, your social security
+number, home address, and patient health history.
+The Ukraine power grid was hacked and would be again
+the following year, 2016.
+The first attack started when workers
+clicked on an attachment, enabling macros
+in a Microsoft Word document.
+Announced in 2016, the Society for Worldwide Interbank
+Financial Telecommunication, SWIFT,
+is a network through which financial institutions
+can send and receive financial transaction information.
+They were hacked.
+The plot was actually uncovered when the hackers misspelled
+the word foundation.
+Hacks on Myspace, the biggest hack ever
+at that point in time, exposed information
+on 427 million users.
+The dump of user information from hacks
+on Gmail, Yahoo, and Hotmail, totaled 273 million users.
+LinkedIn, 117 million users.
+You might be thinking Myspace.
+Who cares, right?
+Wrong.
+People have a habit of reusing passwords.
+Hackers don't care about your old Myspace account,
+they care about the password which you might be reusing
+for your bank website today.
+How many old accounts do you not even remember about anymore?
+How many of them have passwords that you're currently
+using on your active accounts?
+Mark Zuckerberg, founder of Facebook,
+he himself was hacked in this very fashion.
+His Twitter and Pinterest accounts
+were penetrated because his password for those accounts
+was the same as the one revealed in the LinkedIn breach.
+The hackers can tie your email address, your user ID,
+and even your name from old accounts to new ones
+that you're actively using today.
+So yes, the Myspace hack is very relevant today.
+Oh, and don't reuse passwords, ever.
+Related to the recent United States presidential election,
+the Democratic National Committee,
+the Democratic Fundraising Committee, the Clinton
+campaign, and Hillary Clinton's email server
+were all in the news for being hacked.
+Yahoo announced that 500 million users were hacked
+and later announced a separate hack
+had stolen the information related to one billion users,
+ranking it as the greatest data breach of all time.
+What all these hacks do you have in common is number one,
+the financial repercussions to clean up these messes
+were in the tens of millions of dollars or more.
+And number two, most of the disclosures
+were multiple years after the actual hacks,
+which means the attackers were in,
+watching, observing, and collecting information
+for long periods of time undetected.

@@ -1,0 +1,37 @@
+>> A hacker is someone who thinks outside the box, is technologically-inclined,
+and finds unconventional solutions to problems, focusing on what is important.
+The term originally didn't have any malicious connotation, but now it does.
+Cracker was the original term for a malicious hacker.
+Hackers are identified by the color of their hats.
+A black hat hacker is that cracker, or malicious hacker.
+A white hat hacker does what a black hat hacker does, breaking into companies and systems,
+with their permission, of course, in hopes of finding and exploiting vulnerabilities.
+So the company can fix those vulnerabilities before a black hat hacker can get in.
+A grey hat hacker is somewhere in the middle.
+One type of grey hat hacker might break into a system and prove it to the administrator,
+then the grey hat will request payment to fix it, and if denied,
+will move on without any malicious actions.
+White hat, in that regard, but black hat, due to the fact that you can't break
+into a company's infrastructure and see, steal, and store their information.
+Script kiddies can be even worse!
+They are inexperienced crackers, who use scripts and programs developed by others.
+They often don't know what they're clicking or initiating, nor do they have any idea
+of the scope, or consequences of their actions.
+Of course, you might be interested in becoming something else, like a security researcher,
+finding vulnerabilities anywhere.
+Penetration tester, finding vulnerabilities within a certain company.
+Or even a security architect, building systems and processes
+to establish a cyber security presence.
+There are times of speciality and subspecialty positions within the field of cybersecurity.
+Due to the rapid development of tools, the attack sophistication
+and the intruder technical knowledge are sharply going in opposite directions.
+Hackers are able to do a lot more today, without the steep learning curve.
+The FBI define the motivation of individuals who commit espionage against the country,
+with the acronym, MICE, money, ideology, compromise or coercion, ego or extortion.
+Researcher, Max Kilger, proposed that the motivations
+for the hacker community can be thought of as MEECES, money, ego,
+entertainment, cause, entrance, and status.
+Attackers could be outsiders, competition, hacktivists, organized crime,
+terrorists, governments, even hired guns!
+They could be insiders, disgruntled employees, customers, suppliers, vendors,
+business partners, contractors, temps, as well as consultants.
