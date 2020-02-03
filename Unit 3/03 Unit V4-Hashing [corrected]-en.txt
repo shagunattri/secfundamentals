@@ -1,0 +1,80 @@
+>> Hashing has to do with integrity.
+Integrity that messages that are sent are the messages that are received.
+Hashing makes sure no bits have been changed either accidentally or maliciously in transit.
+Hashing algorithms have a few characteristics.
+Variable let input, fixed let output.
+You could feed the Declaration of Independence into a hashing algorithm or just your name.
+In each case you'll wind up with the same sized output hash.
+Also called a message digest.
+If one bit in the input changes, the resulted hash is completely different.
+You can't go back.
+Let's say you take a banana, some strawberries, milk, vanilla syrup and more.
+And put it in a blender.
+While enjoying your smoothie, you think to yourself.
+I wish I could have that banana back.
+Sorry. You can't get the banana back.
+You might know the process of taking a banana out of a smoothie and reconstructing it.
+But it doesn't mean that could be done.
+Quick think of two number that's multiply together to get 100.
+25 times 4, 50 times 2.
+20 times 5, 10 times 10.
+Well I was actually thinking of 100 times 1.
+You don't know what two numbers I picked and subsequently through away.
+Hashing involves doing some calculations and throwing away the inputs.
+Doing some more math, throwing away more inputs.
+In the same process.
+Hashes are called one-way functions because it's not feasible
+to try all possible combinations in a realistic amount of time.
+To go back the other way.
+While it might be easy to go through all numbers that multiply together to get 100.
+When multiple rounds are used and one output is at the end how can you go back?
+Triangle all possible combinations.
+Let's say I multiplied that 100 by 8.
+Now we've got 800.
+And now you have two rounds of inputs to get back to the original factors of 100.
+Besides I'm only using multiplication.
+Hashing ago rhythms of course are much more mathematically intensive.
+If you've ever downloaded a file from the internet.
+You might have seen its hash next to the link you clicked.
+If you run your downloaded file through the same hashing algorithm
+and get the same message digest.
+You know that you got the file intact.
+And that no bits were changed accidentally or maliciously in transit.
+>> Hashing is also used to protect the confidentiality of pass word data bases
+from both system administrators with prying eyes and hackers who steal password data bases.
+Passwords should always be stored in hashed format.
+This means someone who looks at or steals a password data base will see the password hashing
+instead of the plain text passwords.
+>> When you log into a local machine or a remote machine you enter your password.
+Which is subsequently hashed.
+And compared to the stored hash on the authenticating system.
+The same thing happens when you enter your pin at ATM.
+Recent data breeches have brought to light the fact
+that some entities were storing passwords and plain text.
+A security 101 no no.
+>> Yes storing the hashes provides confidentiality of the passwords.
+Compared to storing the plain text versions.
+Yes, hashes are the out puts of one-way function and can't be reversed
+into their original plain text versions.
+However, stolen password hashes can be attacked
+to derive the plain text passwords by multiple methods.
+Including a brute force attack.
+A dictionary attacks.
+And an attack involving a rainbow table.
+We'll explore these methods in a future course.
+We'll also explore assault which defeats attacks using precome posted dictionaries
+and rainbow tables.
+>> The weakness of a hashing algorithm or when a hashing algorithm should be retired
+and when it becomes easy to find multiple inputs that produce the same output message digest.
+This has been the case for both md5 and more recently SHA-1.
+>> Current hashing standards.
+SHA-2s, SHA-256 and SHA-512 and even SHA-3 variants are not appropriate for passwords
+because they're too quick for hackers attempting brute force attacks
+with today's graphics processing units.
+Application specific integrated circuits and field programmable gate arrays.
+PBKDF2. Bcrypt and Scrypt which use SHA functions as part of their algorithms as well
+as new comer Argon2 should be the only functions used for hashing passwords
+because this key stretching functions are significantly slower with tens
+or hundreds of thousands additional rounds.
+The longer calculation time wouldn't be noticed by a user logging in but will be great
+for reducing the rate of brute force attacks.

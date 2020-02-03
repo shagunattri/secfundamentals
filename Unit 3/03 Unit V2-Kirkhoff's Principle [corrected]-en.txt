@@ -1,0 +1,23 @@
+6
+>> Kerckhoff's principle believes only secrecy of the key provides security.
+Shannon's maxim states the enemy knows the system.
+It's very hard to keep the details of a popular algorithm secret.
+Thinking you're achieving security like this is called security through obscurity.
+It's when you rely on the secrecy of the design
+and the implementation of a system as your security.
+There could be many vulnerabilities in such a system, but if no one knows about a system
+or its flaws, according to security through obscurity, attacks can be prevented.
+Sounds like an ostrich sticking his head in the sand.
+To really make a robust encryption algorithm, you've got to throw it out into the public
+and let lots of cryptographers to try to find flaws.
+Keeping it secret and doing all that work yourself is not the same.
+Now, by pure logic, if the only way to make an algorithm secure is to let people poke
+and prod at it, it can't be secret.
+What if the algorithm was compromised?
+Every single location the algorithm was implemented would need to be changed.
+That's hard to do.
+It's easier to replace a key than an algorithm.
+So if you suspect that a key is compromised, you can just select a different key.
+In fact, you can even switch keys over specific time intervals
+to limit the impact of any potential leak.
+Switching encryption algorithms every year, on the other hand, is not as practical.

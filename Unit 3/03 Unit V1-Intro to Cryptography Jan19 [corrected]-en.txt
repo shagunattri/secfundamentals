@@ -1,0 +1,51 @@
+Cryptography is the practice and science of secure communication techniques.
+Cryptography allows for confidentiality, where just the sender of a message and the intended
+recipient understand it, integrity, which makes sure that no part of a message changed
+in transit, authentication, where someone can prove that they are who they claim to
+be, and non-repudiation, where the sender of a message can’t deny having sent it.
+Cryptography also protects data at rest in the same ways.
+Cryptanalysis is the science of breaking cryptographic systems, codes, and algorithms.
+The bad guys do it, but so do the good guys.
+Before cryptosystems, codes, and algorithms are declared secure, they’ve got to be analyzed
+thoroughly.
+Researchers check to see if they can be broken.
+Cryptology refers to the scientific and mathematical study of both cryptography and cryptanalysis.
+Let's use a term that comes up a lot to`day in computing,
+which puts the previous terms into action: Encryption.
+It comes from the terms en, to make; and crypt, hidden.
+When do we use encryption?
+Here are some examples: In other words, we really use encryption all
+the time.
+We use encryption to protect the confidentiality of our sensitive data while it's being transmitted
+and stored.
+If someone should see our unencrypted data, they'll be able to understand it.
+If someone should see our encrypted data, they will not be able to understand it.
+Plaintext is a message or a file of any type in human readable form.
+It also refers to any data, including binary files, in a form that can be viewed or used
+without having to turn it into a different representation.
+When a message is sent as plaintext across an insecure channel, an attacker can get a
+copy, and understand the message, just like the intended recipient.
+The insecure channel can be the Internet, or the air, for cellular networks and WiFi.
+Plaintext and a key, a string of 1s and 0s, are inserted into a cipher, an encryption
+algorithm that converts the plaintext into unreadable output known as ciphertext.
+When a message is sent as ciphertext across an insecure channel, an attacker can get a
+copy, but the ciphertext will look like random bits and will contain no information that
+is useful or meaningful for the attacker.
+Unlike the attacker, the intended recipient has the key, and puts it and the ciphertext
+into the cipher.
+Out pops the plaintext.
+An algorithm by itself is not sufficient.
+What this would look like is plaintext fed into an algorithm,
+producing ciphertext as the output.
+Algorithms are well-known and are never secret, as we'll discuss shortly.
+What's to stop anyone from simply putting the ciphertext back into the algorithm
+to produce the original plaintext?
+Nothing, of course.
+The secrecy, the confidentiality lies in the key --
+another input to the algorithm besides the plaintext.
+Now there are two inputs to the algorithm: The plaintext and the key.
+Out pops the ciphertext again; however, without the key needed for decryption,
+one can't simply feed the ciphertext back into the algorithm to produce the plaintext.
+The secrecy, the confidentiality lies with the key.
+Algorithms are well-known, and they are never secret; keys are guarded and kept secret.
+Confidentiality depends fully on the key.

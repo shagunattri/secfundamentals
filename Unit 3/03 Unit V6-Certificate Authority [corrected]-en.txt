@@ -1,0 +1,17 @@
+>> A certificate authority or CA is a corporation that issues digital certificates.
+An individual doing banking online would surely want to use encryption.
+That person certainly doesn't want his or her identity stolen.
+An organization like Citibank wants to use encryption, too.
+Their motivation is more along the lines of not wanting to get sued.
+Citibank will look to a CA to be their digital notary public.
+A CA is a trusted third party.
+Both Citibank and its customers need to trust CA for the system to work.
+Symantec, Comodo, and GoDaddy are the top three certificate authorities today.
+First, the CA makes sure that the company is legit.
+Because if the CA authenticates a company that proves
+to be nefarious, the CA's reputation is at stake.
+In our story, Citibank gives the CA their public key but keeps their private key secret.
+The CA constructs a digital certificate, signs it, and gives it to Citibank
+to put in the root of their web server.
+When a customer goes to the bank's website,
+Citibank presents this digital certificate to the customer.

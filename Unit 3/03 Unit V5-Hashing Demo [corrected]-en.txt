@@ -1,0 +1,67 @@
+>> Let's take a look at some of the concepts we just learned about regarding hashing.
+I went to an online hashing calculating website.
+There are a bunch of them.
+This one happens to be my favorite.
+And I'm going to enter into the hashing algorithm the string bob.
+I'm going to click the hash button and scroll on down to see all of the message digests
+that were simultaneously calculated.
+As we discussed the longer the output the more secure the mashing algorithm.
+So, I'm going to grab the SHA-256 output for the bob plain text password.
+Not a very good password that was selected by some user.
+I'm going to paste that result in hash inside of my text editor.
+Now what I'm going to do is I'm going to go to a website and copy a bunch of text.
+I'm going to get all of this text.
+I'm going to copy it.
+And I'm going to enter all of that text into the same hashing algorithm.
+We're going to hash that entire article.
+We're going to once again grab our SHA-256 message digest
+and we're going to paste it right below the hash of bob.
+As you can see even though the first input was significantly shorter
+than the second output the size of the message digests the output
+of the hashing algorithm exactly the same.
+Let's go back to our hashing input.
+And instead of bob in all lower-case letters.
+I'm going to capitalize the first letter.
+I'm going to run that plain text also a bad choice fair password
+through the hashing algorithms and I'm going to grab the SHA-256 hash once again.
+Let's see how it compares to the original bob.
+The first row contains the hash the original bob.
+And now the second row contains the hash of the bob where I upper case the first character.
+As you can see I change the lower-case B to an upper-case B. And the result
+if hashes they're radically different.
+As another practice example I'm at the Kali Linux download page.
+In a future course we're going to be using this Linux distribution.
+I want to download the Kali 64-bit ISO.
+The developers have listed the hash generated with SHA-256.
+In fact, I've already downloaded this file and uploaded it to another online hash calculator.
+As you can see the calculated hash matches the hash
+that the Kali developers have published on their site.
+I now know that no bits have been changed either accidentally
+or maliciously in transit to my machine.
+When the publisher site uses SSL/TLS, this reduces the likelihood of a man
+in the middle attack that modifies the file while in transit.
+I also want to make sure that nobodies changed
+or replaced the file underneath the hood to give me something else.
+However, face value hacker switched the file he'd certainly be smart enough
+to change the listed hash as well.
+So, if you download the file from the same source as the published hash.
+Then the hash can't really prove that the file hasn't been changed or replaced.
+If you get the hash from a reputable source like the publisher's website, www.kali.org,
+in this case then you can download the actual file from anywhere.
+For example, by using torrent link.
+The direct ISO download here leads to a different server.
+The hash is stored on www.kali.org, while the file itself is stored on cdimage.kali.org.
+Now the hacker would have to hack into multiple locations.
+Want to change the file, add another to change the listed hash.
+While there are no guarantees that just didn't happen, its less likely.
+What would be even better is storing the file on a completely different domain.
+Still the servers could have been hacked and there exists the possibility
+of a D N S cash poisoning attack.
+Where for example www.kali.org leads to a rogue site.
+The ultimate level of integrity would be downloading a hash that's signed.
+Which means the hash is encrypted with the private key of the publisher.
+You'd decrypt the signed hash with the public key of the publisher.
+Then you'd hash the file.
+And compare the decrypted hash with the computer hash.
+If the two match, you've got the original file.
+If they don't match, the file has been changed or replaced.
