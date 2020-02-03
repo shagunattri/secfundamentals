@@ -1,0 +1,34 @@
+Additional Resources
+Kerckhoff's Principle
+
+Kerckhoffs's principle, Wikipedia
+Encryption
+
+This video explains how the RSA public key and private key are created to be fully dependent on each other. The first part of the video explains the concepts with paint and colors. The second part contains heavy duty math, which may not be as easily understood: Public Key Cryptography: RSA Encryption Algorithm (video), Art of the Problem (16:30 Watching this video may help you understand the XOR Activity in Section 3.3.
+
+Why some cryptographic keys are much smaller than others, John Graham-Cumming, CloudFlare
+
+Data in Use Is the Point of Least Resistance, Ellison Anne Williams, Security Week
+Heartbleed
+
+These links detail the Heartbleed bug from 2014. This vulnerability shows that even though data is protected both in transit and at rest with encryption, data that is being processed is not protected. The encrypted data needs to be decrypted before it’s processed, and therefore is vulnerable at this stage.
+
+Heartbleed, Wikipedia
+
+Heartbleed Explanation, xkcd
+
+Heartbleed, xkcd
+
+What should you do about “HeartBleed?,” LegacyTalk
+The Browser's Trusted Root Certificate Store
+
+Who your browser trusts, and how to control it., CertSimple
+The Future of Encryption with Quantum Computing
+
+Quantum computing, Wikipedia
+
+Post-quantum cryptography, Wikipedia
+
+China set to launch an 'unhackable' internet communication, Andreas Illmer, BBC News
+
+China holds world's first 'unhackable' quantum videoconference in secure communication breakthrough, Harry Pettit, Daily Mail
