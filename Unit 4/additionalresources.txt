@@ -1,0 +1,49 @@
+Additional Resources
+
+Here are some additional topics that take what we’ve learned even further, depending on how deep you want to explore. They are optional, but highly recommended.
+From the TCP/IP Guide
+Types and Sizes of Networks
+
+    Local Area Networks (LANs), Wireless LANs (WLANs) and Wide Area Networks (WANs) and Variants (CANs, MANs and PANs)
+    Segments, Networks, Subnetworks and Internetworks
+    The Internet, Intranets and Extranets
+
+Backgrounder: Data Representation and the Mathematics of Computing 
+
+    Binary Information and Representation: Bits, Bytes, Nibbles, Octets and Characters
+    Decimal, Binary, Octal and Hexadecimal Numbers
+    Decimal, Binary, Octal and Hexadecimal Number Conversion
+    Binary, Octal and Hexadecimal Arithmetic
+    Boolean Logic and Logical Functions
+    Bit Masking (Setting, Clearing and Inverting) Using Boolean Logical Functions
+
+OSI Reference Model Layer Mnemonics
+OSI Reference Model Layer Summary 
+TCP/IP Protocol Suite and Architecture 
+
+    TCP/IP Overview and History
+    TCP/IP Services and Client/Server Operation
+    TCP/IP Architecture and the TCP/IP Model
+    TCP/IP Protocols
+
+Additional Topics
+
+    Private Addressing
+    Subnetting
+    NAT
+    IPv6
+
+Other Sources
+VLAN
+
+    Cisco IOS Switching Services Configuration Guide, Routing Between VLANs Overview
+
+    AlliedWare Plus™ OS, Overview of VLANs (Virtual LANs)
+
+    Firewll.cx, The VLAN Concept - Introduction to VLANs
+
+STP
+
+    Cisco ONS 15454 SONET/SDH ML-Series Multilayer Ethernet Card Software Feature and Configuration Guide, Release 4.1.x, Chapter 6, Configuring STP and RSTP
+
+    Cisco, Understanding Rapid Spanning Tree Protocol (802.1w)
