@@ -1,0 +1,43 @@
+Now, host A's default gateway has the actual traffic meant for the destination.
+Routers maintain tables called, get this, routing tables that contain destination networks
+and directions for the router, who to send the traffic to next.
+If the routers routing table doesn't have knowledge of the destination network,
+it can have a default route which means a specific router interface
+on a different router to send traffic to.
+That other router interface will have a better idea of how to get to the destination.
+Without knowledge of the destination network or a default route, a router will drop a packet
+and send an error message back to the source through a protocol known as ICMP,
+Internet control message protocol.
+In this story, host A's default gateway looks in its routing table and sees
+that the next router interface the packet should go to is the left interface of R2.
+If the routers are connected by the Ethernet infrastructure,
+the same ARP process takes place.
+If the interconnection between routers doesn't use Ethernet, a different frame type is used.
+For example, wireless NICs use 802.11 frames instead of Ethernet frames.
+The same IP packet just has a different encapsulating frame.
+Point-to-point directly connected serial interfaces using protocols like PPP
+or HDLC don't even need to deal with MAC addresses and their frames
+that encapsulate IP packets since their connection is just like a tunnel.
+There's only one way in and only one way out.
+For this story, we'll just say all interfaces are Ethernet.
+There may be switches and PCs between these two router interfaces but with or without the story
+in communication between routers, in this case, it is exactly the same.
+R1 sends an ARP request, a broadcast heard and read by every device on the network,
+saying if your IP address is 10.10.2.99, I need your MAC address.
+The left interface of R2 sends a unicast ARP reply back to R1 with its MAC address.
+R1 re-encapsulates the original packet sent from A to X with a new frame.
+The new source MAC address represents the right interface of R1,
+and the new destination MAC address represents the left interface of R2.
+R2 accepts the frame on its left interface, sees that the MAC address is its MAC address,
+then R2 inspects the destination IP address and it isn't its IP address.
+R2s right interface then ARPs looking for the MAC address of R3s left interface.
+After the ARP reply comes back, the new source MAC of the frame is the right interface of R2.
+And the new destination MAC is the left interface of R3.
+Then R3s right interface finishes it off by actually ARPing for the destination
+since the right interface of R3 is actually on the destination's network.
+The final frame has a source MAC address of the right interface of R3
+and a destination MAC address of the actual destination,
+host X. The destination gets the frame, sees its MAC address, opens it up, and for the first time
+in the story a device says yes, that's my IP address too.
+The IP header is now stripped off and the higher layer data is sent up the networking stack
+on the destination for processing.

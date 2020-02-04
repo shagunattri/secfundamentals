@@ -1,0 +1,50 @@
+>> In story number two, host A, the source, once again performs the boolean and operation
+to determine that its network ID is 10.10.1.0.
+This time, the destination IP address is 10.10.4.1, host X. Using the source mask
+of 255.255.255.0, the second boolean and operation results
+in a destination network ID of 10.10.4.0.
+The two network IDs are not the same,
+and the source realizes it can't send traffic directly to the destination.
+One of the golden rules of networking is that direct communication is only possible
+between devices on the same network.
+The source needs to get the traffic now to its default gateway,
+an interface on a router connected to its network.
+When a device is configured either statically or dynamically, in addition to an IP address
+and a subnet mask, that device also gets an IP address of a router interface on the network.
+That router interface is responsible for taking traffic off the network destined
+for other networks and bringing traffic from other networks back onto the network.
+We call that interface on the router performing those functions a default gateway.
+And its IP address needs to be known by hosts on the network.
+Routers are the devices that connect different networks together.
+And each interface of a router connects to a different network.
+Even though host A, the source, determines that the traffic is remote,
+it will once again send an ARP request, which is broadcasted to all devices on its network.
+This time, the ARP request is looking for the MAC address of host A's default gateway.
+In our story, we'll say the gateways IP address is 10.10.1.99.
+The gateway will send its MAC address in a unicast ARP reply back
+to host A. Host A now sends the traffic with a destination MAC address of the router
+and the destination IP address of the actual destination,
+which could be two, five, ten or more routers away.
+Incidentally, routers never forward broadcasts to other networks.
+Router interfaces will hear broadcasts on the networks they're connected to
+but will never forward broadcast traffic from one network
+out of another interface to a different network.
+If they did that, a simple broadcast could go around the world and back.
+Just to understand our typology, a map or diagram of the network,
+you'll notice that each interconnection between router interfaces,
+including the router interfaces themselves, is considered a separate network.
+That means every device between router A's right interface and router B's left interface,
+including those interfaces, is on that shared network.
+The network identifier would be 10.10.2.0 if the subnet mask was 255.255.255.0.
+And all devices on that network would need an IP address starting off with 10.10.2.
+The last octet would be the host octet.
+Following the IP addressing rules we've discussed,
+every device on a share network starts off with the same network identifier.
+In this story, we'll just make it easy and make the subnet mask for all devices
+and networks 255.255.255.0, which means all hosts
+on each network will share the same first three numbers or octets.
+The last octet will be a host identifier for all networks.
+Everything between router B's right interface and router C's left interface is a network.
+That network identifier is 10.10.3.0.
+Our last network in this topology is everything to the right
+of router C's right interface, the 10.10.4.0 network.

@@ -1,0 +1,35 @@
+>> There are two addresses every device uses: MAC --
+media access control, and IP -- internet protocol.
+MAC addresses are physical addresses are physical addresses burned into the NIC --
+network interface card -- which is the chip
+through which all network communications enters and exits a machine.
+MAC addresses are 48 bits long, represented with 12 base 16 hexadecimal characters,
+and are separated into two sections.
+The first six hex characters represent the manufacturer of the NIC assigned
+by the I triple E -- the Institute of Electrical and Electronic Engineers.
+This OUI -- organizationally unique identifier -- is never duplicated.
+The last six hex characters, the device ID, is a unique value assigned
+to a manufacturer to each of its NICs.
+The I triple E won't give out duplicate blocks of identifiers to manufacturers
+and the manufacturers won't duplicate the device IDs.
+So we can say that MAC addresses are globally unique.
+No two MAC addresses are the same across the entire world.
+IPv4 addresses are logical addresses, bound to NICs through software.
+They are 32 bit addresses, represented with four base 10 decimal numbers,
+and are also separated into two sections.
+The first section represents the network ID, the starting string of bits that all nodes
+on a shared network have in common.
+The second section represents a host ID, a unique string --
+like the MAC address device ID -- for each host on a shared network.
+Unlike MAC addresses, it is not as simple as splitting the two parts down the middle.
+An entity known as a subnet mask -- another 32 bit value --
+identifies where the breakup of network ID and host ID occurs.
+The subnet mask always has a string of ones, followed by a string of zeros.
+The ones represent network bits and the zeros represent host bits.
+In other words, when you line up an IP address with its subnet mask in binary,
+if there is a one in the subnet mask row, it means that the corresponding bit
+in the IP address row in the same column is a network bit,
+shared by all hosts on the same network.
+A zero for a subnet mask bit means that the corresponding bit in the IP address row
+in the same column is a host bit.
+In the next video, we'll see exactly how this subnet mask is used.

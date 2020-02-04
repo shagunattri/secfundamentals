@@ -1,0 +1,24 @@
+>> Recently, a new family -- the Smiths -- moved into a house on our street.
+My wife made them a Welcome package with fruits and goodies and asked me to deliver it to them.
+A few new houses on the block were sold recently and I wasn't exactly sure
+which house the Smiths moved into.
+Late one night, I went to my porch and shouted, "Hey, Bob Smith,
+which house did you guys move into?"
+In the process, I woke up the whole neighborhood, including our two kids.
+However, I did in fact get Bob's attention and he very discreetly walked to my doorstep
+and said, "Hey Jonathan, it's 123 Main Street."
+Then he walked home.
+Later that night I brought the package over to the Smiths.
+Also recently, our kids made art projects at school for their grandparents --
+my parents, who live in Staten Island, New York, and my in-laws, who live in Philly.
+I didn't want to drive six hours to Staten Island or Philly from Rochester just
+to deliver the works of art, so I Googled for the nearest UPS store to our house.
+I brought the packages of art there, paid for them, and went home.
+The magical world of networking uses the same logic.
+Computing devices directly deliver messages for other devices
+on the same network through switches.
+Switches connect devices of the same network together.
+However, computing devices rely on a router to communicate with devices on different networks.
+We'll see exactly how routers and switches work in a future module.
+But for now, all you need to know is that switches connect devices
+of the same network together and routers connect different networks together.

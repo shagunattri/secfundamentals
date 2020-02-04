@@ -1,0 +1,45 @@
+>> Let's take a look at how subnet masks are used.
+We'll also explore why both physical MAC addresses
+and logical IP addresses are always needed for communication.
+Let's do all of that with a couple of stories.
+In story number one, host A with IP address 10.10.1.1 wants to communicate
+with host B whose IP address is 10.10.1.2.
+The source of the traffic will take its IP address in subnet mask
+and perform a boolean and operation.
+All 32 bits of the IP address are lined up with the 32 bits of the subnet mask.
+In this case, the subnet mask of the source 10.10.1.1 is 255.255.255.0 in base 10.
+In binary, it looks like 24 ones followed by 8 zeros.
+This means that the first 24 of the 32 bits are network bits
+and are shared by every device on this network.
+The last eight bits are host bits and are unique in entirety to each host on this network.
+Each of the four base 10 numbers is known as an octet
+because each number is represented by eight bits in binary.
+Subnet masks can span multiple octets and need not be contained to a multiple of eight bits.
+For example, instead of 255.255.255.0, the mask could have been 255.255.255.192
+where the first 26 bits are network bits and the last six bits are host bits.
+When the host logically ends each of the 32 columns bringing down a 1 if both bits
+in the column are ones and bringing down a zero if the two bits in a column are not both ones,
+what results is what we call a network identifier.
+In this case, the source's network identifier is 10.10.1.0.
+No matter how many host bits are in an IP address, if they are all zeros
+that represents a network ID and cannot be assigned to a host.
+In this case, there are eight host bits and they can't all be zeros because the IP address
+with all host bits set to zero represents the network ID.
+In fact, they can't be all ones either because when all host bits are set to one
+that represents a network broadcast address and, like a network ID, cannot be assigned to hosts.
+This network's broadcast address with all host bits set to one would be 10.10.1.255.
+Any pattern besides all zeros and all ones for the host bits, that's legal and valid
+to be assigned to devices on the network.
+Now the source needs to determine if the destination is on the same network
+or a different one by performing a second boolean and operation.
+The source takes the destination IP address and logically ends it
+with the sources own subnet mask.
+The destination's subnet mask is unknown and it is never transmitted.
+The destination's IP address is either known by the source or resolved
+from its name using a protocol we'll explore in a future module called DNS, domain name system.
+The source doesn't actually need the destination's mask because if they are
+on the same network their subnet masks will be the same anyway.
+After logically ending the destination IP address of 10.10.1.2 with the source mask
+of 255.255.255.0, the resultant network ID matches the network ID of the source 10.10.1.0.
+This lets the source know that the destination is on the same network
+and traffic can be delivered directly.

@@ -1,0 +1,25 @@
+>> After determining that the traffic is local,
+the source needs the MAC address of the destination.
+The source puts the actual traffic on hold and sends
+out a broadcast message using a protocol known as ARP, address resolution protocol.
+ARP is meant to resolve a known IP address to the MAC address that it is bound to in software.
+The message in the ARP request explains that host A 10.10.1.1 is looking
+for them MAC address of 10.10.1.2.
+All devices on the network not only see this ARP request but they read it as well.
+Every device but the actual destination says that's not for me and discards it.
+Host B 10.10.1.2 sends an ARP reply back to host A 10.10.1.1.
+The ARP reply is unicast, which means it only goes to 10.10.1.1
+and is not broadcasted to everyone on the network.
+In the ARP request, the source listed its MAC address so the destination didn't need
+to broadcast to find out the sources MAC address.
+Broadcast on networks are bad.
+Hosts have to interrupt what they're doing and parse through the broadcast
+and most cases realize that it's not even meant for them.
+It's like a professor e-mailing a 500 page PDF to the class with the subject line read this
+and the name of a single student who it was meant for appearing on page 499.
+Unfortunately, in the world of IPv4, there is no other way to do this.
+After the ARP reply comes back to host A with host B's MAC address,
+host A can now fill-in the destination's MAC address and send the traffic.
+The source and destination MAC addresses are two of the fields found
+in the layer 2 frame while the source
+and destination IP addresses are a couple of the fields in the IP packet.
