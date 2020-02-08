@@ -1,0 +1,74 @@
+
+JONATHAN S. WEISSMAN: One of two protocols
+will be used at Layer 4 of the OSI model
+to encapsulate the data coming from Layers 5, 6, and 7.
+TCP, Transmission Control Protocol segments,
+or UDP, User Datagram Protocol datagrams,
+will be selected by an application that's
+sending data.
+TCP establishes a connection between the source
+and destination devices for reliable data transfer and flow
+control, sending data at an acceptable rate,
+both to the source and destination.
+UDP is connectionless and has no flow control.
+All bytes sent with TCP are ordered and sequenced.
+TCP guarantees that every single byte sent
+will be received with integrity and processed
+in the correct order.
+So actually there are, in fact, three things
+that are guaranteed in life--
+death, taxes, and TCP.
+TCP segments are acknowledged.
+So the sender knows the destination got the traffic.
+If an acknowledgment specifically referencing
+byte numbers of the data sent doesn't come back,
+TCP resends the unacknowledged bytes.
+UDP doesn't do this.
+So which one is better?
+Well, it depends.
+TCP is used for things like file transfers, email,
+and going to websites.
+In those cases, accuracy is important.
+If bytes are lost or corrupted, the whole message
+could be destroyed.
+UDP is used for real-time communications, conferencing
+and streaming.
+Furthermore, two major protocols coming up
+in a future module, DNS and DHCP, both use UDP.
+If every byte sent needed to be acknowledged on a VoIP call,
+over the web, there could be problems
+with lost acknowledgments.
+TCP, on the source, would think the destination
+didn't get the message and would resend it again.
+So the destination would hear "hello"
+and send its acknowledgment back to the source.
+Let's say that the acknowledgment got lost.
+The destination would hear these subsequent words
+from the voice call that were already
+sent by the source, "how are you doing today?"
+But then the source would send "hello" back again.
+That would be a very frustrating phone call.
+You'd have the past coming back into the current conversation.
+You'd have to imagine, though, that all audio
+and video, real-time and streaming over the internet
+and UDP datagrams, still has to be ordered to ensure they're
+processed in the correct order.
+RTSP, Real Time Streaming Protocol,
+which exists at Layer 7, does the ordering for UDP.
+Using RTSP just for the ordering of the UDP datagrams
+involves significantly less overhead
+than TCP would require.
+If TCP was used, a connection would
+have to be established and maintained.
+Flow control would need to be added.
+And acknowledgments would need to be sent.
+The communication could slow down
+based on these and other factors.
+With UDP, if bytes are lost, we don't care.
+They're just a fleeting moment in time.
+You might not even notice.
+TCP has much more overhead than UDP
+and is deliberately slower, striving
+for accuracy and integrity.
+UDP has no overhead, and it's quicker,
+striving for efficiency.

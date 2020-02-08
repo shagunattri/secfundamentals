@@ -1,0 +1,45 @@
+Additional Resources
+More on ICMP from the TCP/IP Guide
+ICMP Concepts and General Operation
+
+    ICMP Overview, History, Versions and Standards
+    ICMP General Operation
+    ICMP Message Classes, Types and Codes
+    ICMP Message Creation and Processing Conventions and Rules
+    ICMP Common Message Format and Data Encapsulation
+
+More on OSPF from the TCP/IP Guide
+Open Shortest Path First (OSPF)
+
+    OSPF Overview, History, Standards and Versions
+    OSPF Basic Topology and the Link State Database
+    OSPF Hierarchical Topology, Areas and Router Roles
+    OSPF Route Determination Using SPF Trees
+    OSPF General Operation and Message Types
+    OSPF Message Formats
+
+More on EIGRP
+
+    Enhanced Interior Gateway Routing Protocol (EIGRP) (TCP/IP Guide)
+    Enhanced Interior Gateway Routing Protocol (EIGRP) Informational RFC Frequently Asked Questions (Cisco)
+    Implementing EIGRP (Cisco Press)
+    Fundamental EIGRP Concepts (Cisco Press)
+
+More on BGP from the TCP/IP Guide
+BGP Fundamentals and General Operation
+
+    BGP Overview, History, Standards and Versions
+    BGP Topology, Speakers, Border Routers and Neighbor Relationships (Internal and External Peers)
+    BGP Autonomous System Types, Traffic Flows and Routing Policies
+    BGP Route Storage and Advertisement, and BGP Routing Information Bases (RIBs)
+    BGP Path Attributes and Algorithm Overview
+    BGP Route Determination and the BGP Decision Process
+    BGP General Operation and Messaging
+
+BGP Detailed Messaging, Operation and Message Formats
+
+    BGP Message Generation and Transport, and General Message Format
+    BGP Connection Establishment: Open Messages
+    BGP Route Information Exchange: Update Messages
+    BGP Connectivity Maintenance: Keepalive Messages
+    BGP Error Reporting: Notification Messages

@@ -1,0 +1,91 @@
+
+JONATHAN S. WEISSMAN: The way network communication
+goes in and out of a machine physically is through the NIC,
+network interface card.
+The way network communication goes in and out
+of a machine logically, though, is
+through a program or service.
+A service is a program that runs in the background, independent
+of a log on that provides functionalities to a system.
+Windows client machines, for instance,
+will have a workstation service running
+in the background that allows for connections
+to remote network resources.
+It's not tied to a single user log on
+and is always running in the background.
+When you start a web server, you're
+starting a specific server service
+that isn't tied to a specific user log on either.
+This way, when the server reboots,
+the service automatically starts before anyone logs on.
+In the world of Linux, services are known as daemons.
+Well, how does network communication go in and out
+of a program or service?
+Let's say a single machine is running both an FTP--
+file transfer protocol-- server as well as a web server.
+If they both are accessible by the same IP address,
+how does the traffic for the FTP server
+get to the FTP server and the traffic
+for the web server get to the web server?
+Think about an apartment building
+with a mailbox grid in the lobby.
+The man in apartment 21 checks his mail with a key to box 21,
+and a woman in apartment 80 checks her mail
+with a key to box 80.
+The mailman brought their mail to the same building.
+They both live in the same building with the same street
+address.
+This is like two different servers
+that are accessible through the same IP address.
+However, when traffic is destined
+for the man in apartment 21, it is noted
+on the front of the envelope.
+And the same goes for mail addressed
+for the woman in apartment 80.
+Similarly, the way into and out of a program or service
+is through a port.
+
+A port is a logical end point of communication
+that identifies a program or service
+and is represented by a port number.
+
+So in addition to source and destination Mac addresses
+and source and destination IP addresses,
+there are, in fact, source and destination ports.
+Mac addresses are found in frames
+at layer two of the OSI model.
+IP addresses are found in packets at layer three.
+Port numbers are found in either TCP segments or UDP datagrams
+at layer four.
+Based on the destination port, the destination machine
+knows which program or service to send the data
+to the same way that the mailman knows
+to put the mail for apartment 21 in the box for apartment 21
+and the mail for apartment 80 in the box for apartment 80.
+Well-known ports from zero to 1,023
+are used by major protocols and services.
+For instance, FTP servers use port 21,
+and web servers use port 80.
+Registered ports from 1,024 to 49,151
+are assigned by IANA, the Internet Assigned Numbers
+Authority, for specific companies
+that want a common port to be used for their programs
+or protocols.
+However, these ports can be used by any system if not in use.
+Registered ports are locally significant to a system.
+It's not like using a registered IP address, which
+has global scope.
+Dynamic ports from 49,152 to 65,535
+are used by client applications on an as-needed basis.
+
+For example, your browser might open up port 60,000
+to send a request to a web server that
+will be listening for requests on port 80, unencrypted HTTP.
+The web server's response is sourced from port 80
+and is destined for the port that your browser opened up.
+After the communication between your browser and the web server
+is complete, your browser will close the port it opened.
+But the web server's port will remain open
+for new incoming connections.
+Your browser will subsequently open up
+a different port in that dynamic range for its next request.

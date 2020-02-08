@@ -1,0 +1,10 @@
+Individual machines use ports to send data to the program or service that needs that data.
+After watching the video, learn more about ports in the TCP/IP Guide:
+TCP/IP Transport Layer Protocol (TCP and UDP) Addressing: Ports and Sockets
+
+    TCP/IP Processes, Multiplexing and Client/Server Application Roles
+    TCP/IP Ports: Transport Layer (TCP/UDP) Addressing
+    TCP/IP Application Assignments and Server Port Number Ranges: Well-Known, Registered and Dynamic/Private Ports
+    TCP/IP Client (Ephemeral) Ports and Client/Server Application Port Use
+    TCP/IP Sockets and Socket Pairs: Process and Connection Identification
+    Common TCP/IP Applications and Assigned Well-Known and Registered Port Numbers
