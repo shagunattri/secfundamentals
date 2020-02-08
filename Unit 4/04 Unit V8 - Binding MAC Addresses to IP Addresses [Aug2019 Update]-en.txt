@@ -1,0 +1,39 @@
+>> MAC addresses alone wouldn't be enough for network communications.
+They are not hierarchical, but rather flat addresses.
+You can buy a NIC on the web right after someone in another country from the same website.
+Even with the NICs being ordered from different countries,
+the MAC addresses of those NICs could very well be sequential.
+IP addresses alone wouldn't be enough for network communications either.
+These logical addresses are leased to client devices on a dynamic basis.
+In most cases, they're even geographical
+with IP address numbers representing different parts of the world.
+How do we tie those geographical, logical addresses to the devices
+that are using them on a dynamic basis?
+That's why the NICs and their MAC addresses are so very important.
+The logical IP addresses can now be bound to and associated with a device
+as MAC address for a duration of time.
+That's how we keep track of which device is temporarily using an IP address
+of a network at any point in time.
+Think of a restaurant.
+At one point in a given day, a certain couple might be sitting at table number 5.
+Later, a group of friends will be sitting there.
+Table number 5 will be associated
+with a different reservation at different points in time.
+Think of the table number as the host ID of the IP address.
+The restaurant's street address could be the network ID portion of the IP address.
+All tables in the restaurant after all are found at that location.
+Table number 6 would be a different host ID
+but it will still have the same street address as table number 5.
+How do we know who is using that table at any given point in time?
+The reservation name.
+How do we know which device is using a given IP address at any point in time?
+The MAC address.
+An IP address, a MAC address, you simply can't have one without the other.
+Think back to the beginning of this module when I told you a couple of stories.
+I had to get Bob Smith's attention so I can get his house number.
+I did so by shouting in the middle of the night, interrupting everyone
+on the block, disturbing them all.
+That's what host A did in story number 1 to get the MAC address of host B. In story number 2,
+I realized that Staten Island was not local to me here in Rochester, neither was Philly.
+So I had to get the traffic to my default gateway, my local UPS store.
+That's what host A did when he realized that the destination was on a different network.

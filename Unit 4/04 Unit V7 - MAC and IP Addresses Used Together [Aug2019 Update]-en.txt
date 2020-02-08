@@ -1,0 +1,24 @@
+>> As illustrated, MAC addresses are only locally significant and are definitely needed
+in addition to IP addresses to specify the next hop to receive the packet
+and route to its final destination.
+Every time a packet passes through an interface, the frame is stripped off and discarded
+and after the next router figures out the next hop,
+the packet is reframed with a new outer frame.
+IP addresses are logical and for the most part geographical and hierarchical like zip codes.
+If I send a UPS package from Rochester to Staten Island,
+the first UPS distribution center sends it to the next one.
+And the second distribution center sends it to the third.
+The tracking of packages is made possible with UPS routing stickers slapped
+on the UPS packages going out of each distribution facility to the next facility.
+Think of those as the MAC addresses.
+As a package leaves a UPS distribution center, the sticker indicates
+which distribution center it's leaving and which distribution center it's destined for.
+When it gets to the next distribution center, those stickers are removed.
+That's just like the Ethernet frames in our networking story, which are removed
+and added back with each router that a packet passes through.
+However, on that brown box are to and from addresses which represent the actual person
+and source location sending the package and the actual person
+and destination that the package is meant for.
+Those are of course analogous to the source and destination IP addresses in our story.
+The IP addresses just like the to and from addresses are geographical and never change
+through the duration of the path the packet or package takes to the final destination.
