@@ -1,0 +1,70 @@
+
+JONATHAN WEISSMAN: Routers don't connect devices
+of the same network together.
+They connect different networks together.
+So you wouldn't ever see a PC connected to a router.
+Connected to a router, you'd find either a switch
+or another router.
+That little box we have at home that everyone calls router
+actually has switch functionality built inside
+of it.
+If you've ever connected a desktop
+to an interface on that router, you actually
+plug the cable into the switch interface,
+even though we call that little box router.
+As we discussed earlier, when a router gets a packet
+to send to a destination IP address,
+the router consults its routing table
+to see if it has knowledge of the destination network.
+And if so, which router interface
+should get the packet next?
+If the router has no knowledge of the destination network,
+it might have a default route of its own to send the packet to.
+Without either knowledge of a destination network
+or a default route for a router to send all packets
+with unknown destinations to, the router
+will drop the packet, and send an error message
+back to the source through a protocol known as ICMP.
+
+Today's internet backbone routers
+are approaching 3/4 of a million--
+750,000 routes in their routing tables.
+On internal autonomous systems, there are much less.
+An autonomous system represents a collection
+of networks under one administrative control,
+like an ISP or major entity like RIT.
+Here at RIT, we have a collection
+of internal networks.
+Why would a bunch of networks be preferred to a single network?
+Well, for one, think back to our ARP stories.
+ARP requests and all other broadcast traffic
+will always reach and be processed
+by every single device on a network.
+One reason why we might want multiple networks
+interconnected by routers instead of one big flat network
+is to reduce the size of the broadcast domain.
+Instead of broadcasts tying up the bandwidth and processing
+of all devices on a network, we've
+now lowered the amount of broadcasts
+that will proliferate through our network
+and the amount of devices that can hear them.
+It's why here at RIT, each class is taught in a room by itself.
+If we add one humongous auditorium
+and had all classes there simultaneously,
+my students would have to listen and try
+to understand all the other professors and classes.
+That would take their attention away from me and my lessons.
+Another reason why multiple networks
+are preferred to one big flat network
+is for security purposes.
+Security at the router level in the form of an access control
+list can be used to filter traffic
+by source IP address, destination IP address,
+protocols, and even ports.
+This allows you to control access
+to and from certain devices and resources
+much better than if everything was on the same network.
+It's also a way to hierarchically design
+an entire network, and even makes
+the troubleshooting process easier by isolating traffic
+to a certain network.

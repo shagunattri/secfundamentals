@@ -1,0 +1,41 @@
+>> Entities like RIT registered for and received their own ASN, Autonomous System Number.
+They became autonomous systems of their own, independent of ISPs.
+This allowed them to maintain routing tables and exchange routing information with multiple ISPs.
+As traffic is ready to leave the autonomous system, the routers decide which ISP
+and which ISP connection to send the traffic to for the most efficient packet delivery.
+At home, we don't have to exchange any information about networks with our ISP.
+There is a default route in our router that basically says any traffic for anywhere
+but my local home network, send it to the ISPs router.
+Why would we want the overhead of exchanging routes?
+If the connection to our ISP goes down,
+we're not sending any communication off our network anyway.
+Besides, our home routers don't have the memory or processing power for 750,000 routes.
+However, inside a company, within an autonomous system, there needs to be a dynamic way
+in which the routers can exchange information about the internal networks as well as how
+to get to the company's edge router that connects to the ISP
+for packets destined for an external network.
+This is where routing protocols come into play.
+An IGP, Interior Gateway protocol, is a routing protocol that allows routers
+within an autonomous system to communicate with each other.
+Sharing information about the networks they're directly or indirectly connected to.
+After these messages are passed between the routers, each router forms an idea
+of the topology and determines the best way to get to it a destination network.
+Metrics are values that the routers use to determine the best way to get
+to a destination network when there are multiple paths available.
+Nowadays, the two main IGPs are OSPF, Open Shortest Path First and Cisco's EIGRP,
+Enhanced Interior Gateway Routing Protocol.
+The main metric used by OSPF and EIGRP to determine the best way to get
+to a destination network is bandwidth although they calculate this metric very differently.
+Using OSPF or EIGRP, a router might choose a path to a destination network with more hops
+over a path with fewer hops based on the bandwidth.
+Sending a packet over a greater number of links is preferred if those links
+and their bandwidth can get the packet
+to its destination quicker than a smaller number of links.
+We make these decisions all the time ourselves.
+Sometimes I'd rather drive more miles on the highway to get somewhere quicker than less miles
+on local streets with fewer lanes, traffic lights, and a lower speed limit.
+An EGP, Exterior Gateway Protocol, is a routing protocol that allows routers
+from different autonomous systems to communicate with each other
+and exchange routing information.
+The only EGP in usage today, which is used
+across the entire Internet, is BGP, Border Gateway Protocol.

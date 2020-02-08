@@ -1,0 +1,56 @@
+>> Let's now take a closer look
+at those switches we were talking about in an earlier module.
+Switches connect devices of the same network together.
+They can connect into other switches and routers as well.
+Switches and PCs connected between router interfaces are considered
+to be on the same network.
+When a PC sends an Ethernet frame into a switch, the switch checks the destination MAC address
+to see if it knows which interface that MAC address is connected to.
+If the switch knows where the device with that MAC address is,
+the switch sends it out, just that interface.
+If the switch doesn't know where a destination MAC address is, the switch floods the frame
+out of all interfaces except the interface on which the frame originated.
+So now the obvious question is how does the switch learn
+where MAC addresses are in the first place?
+The switch actually starts off knowing nothing, but as frames are sent
+into the switch, the switch starts learning.
+If host A sends a frame for host B into the first interface on the switch,
+the switch says I know that the MAC address of host A can now be associated
+with the interface on which it was heard.
+The switch will make a note of it through a table
+in memory called SAT, Source Address Table.
+Since the switch doesn't know where host B is, it floods the frame
+out of all the interfaces except the one the frame originated on.
+When host B replies, the frame goes into the switch.
+And the switch learns that host B can be found on the second interface.
+The switch then adds the MAC address of host B and the interface it was heard
+on into its source address table as well.
+The logic works the same for switches that are connected together.
+Each switch maintains its own source address table.
+You'll notice that hosts E, F, G, and H are known to switch two on interfaces one,
+two, three, and four, respectively.
+But as far as switch one goes, hosts E, F, G, and H are all accessible
+through interface five which connects to switch two.
+Hosts A, B, C, and D are known to switch one on interfaces one,
+two, three, and four, respectively.
+But as far as switch two goes, hosts A, B, C, and D are accessible
+through interface five which connects to switch one.
+So if host C sends a frame to host E, it goes into switch one on interface three.
+Switch one consults its source address table
+and realizes host E is accessible out of interface five.
+Therefore, switch one sends the frame out of interface five
+where it's picked up by switch two.
+Switch two now looks at the destination MAC address in the frame
+which is still the MAC address of host E. In an earlier module,
+we learned that routers reframe packets at each hop.
+Switches, on the other hand, are transparent and don't change a single part of the frame.
+After consulting its source address table, switch two sends the frame
+out of interface one where host D gets it.
+In addition to flooding unknown unicasts when the switch doesn't know
+where a destination MAC address is, the switch will also flood
+multi-casts and broadcasts out of all interfaces,
+except the interface that the frame originated on.
+Remember, all ARP requests are always broadcasts.
+If there are 20 connected switches in a network with 20 PCs connected to each of those
+switches, a single ARP request by one of the PCs will be read
+by the other 399
